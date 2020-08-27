@@ -16,5 +16,6 @@ washington.csv
 README.md  
 
 ### Credits
-Thanks to Udacity!  
+Thanks to Udacity! 
+https://github.com/udacity/pdsnd_github 
 
