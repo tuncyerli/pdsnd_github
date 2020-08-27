@@ -195,14 +195,14 @@ def user_stats(df):
     print('-'*40)
 
 def raw_data(df):
-    """Displays raw data in 5 row increments upon user request.""" 
+    """Displays raw data in 10 row increments upon user request.""" 
     raw_rows = 0
-    response = input("Do you want to see the first 5 lines of the raw data? Enter yes or no.\n").lower()
+    response = input("Do you want to see the first 10 lines of the raw data? Enter yes or no.\n").lower()
 
     while response == "yes":
-        print(df.iloc[raw_rows : raw_rows + 5])
+        print(df.iloc[raw_rows : raw_rows + 10])
         raw_rows += 5
-        response = input("Do you want to see the next 5 lines of the raw data? Enter yes or no.\n").lower()
+        response = input("Do you want to see the next 10 lines of the raw data? Enter yes or no.\n").lower()
 
 def main():
     while True:
