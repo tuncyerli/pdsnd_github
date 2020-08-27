@@ -160,7 +160,6 @@ def trip_duration_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
 def user_stats(df):
     """Displays statistics on bikeshare users."""
 
@@ -195,11 +194,9 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
 def raw_data(df):
     """Displays raw data in 5 row increments upon user request.""" 
     raw_rows = 0
-    error_text = "Wrong entry. Select from the list and make sure to spell correctly."
     response = input("Do you want to see the first 5 lines of the raw data? Enter yes or no.\n").lower()
 
     while response == "yes":
